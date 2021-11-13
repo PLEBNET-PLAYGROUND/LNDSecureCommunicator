@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LNDSecureCommunicator", "LNDSecureCommunicator\LNDSecureCommunicator.csproj", "{524BE265-B2FB-4135-8DBD-0E1F6B48CD06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LNDSecureCommunicator.ServiceInterface", "LNDSecureCommunicator.ServiceInterface\LNDSecureCommunicator.ServiceInterface.csproj", "{C9D12F72-57C9-4089-9B99-F4AC9CD8B311}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LNDSecureCommunicator.ServiceModel", "LNDSecureCommunicator.ServiceModel\LNDSecureCommunicator.ServiceModel.csproj", "{79E7EEDC-2AE1-4C2D-9066-B39871FFE9CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LNDSecureCommunicator.Tests", "LNDSecureCommunicator.Tests\LNDSecureCommunicator.Tests.csproj", "{F5490414-4AC2-44D2-955E-CFC50F71037A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LNDSecureCommunicator.CLI", "LNDSecureCommunicator.CLI\LNDSecureCommunicator.CLI.csproj", "{2A749A94-009D-41DD-A6EA-93E291AA35EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{524BE265-B2FB-4135-8DBD-0E1F6B48CD06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{524BE265-B2FB-4135-8DBD-0E1F6B48CD06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{524BE265-B2FB-4135-8DBD-0E1F6B48CD06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{524BE265-B2FB-4135-8DBD-0E1F6B48CD06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9D12F72-57C9-4089-9B99-F4AC9CD8B311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9D12F72-57C9-4089-9B99-F4AC9CD8B311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9D12F72-57C9-4089-9B99-F4AC9CD8B311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9D12F72-57C9-4089-9B99-F4AC9CD8B311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79E7EEDC-2AE1-4C2D-9066-B39871FFE9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79E7EEDC-2AE1-4C2D-9066-B39871FFE9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79E7EEDC-2AE1-4C2D-9066-B39871FFE9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79E7EEDC-2AE1-4C2D-9066-B39871FFE9CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5490414-4AC2-44D2-955E-CFC50F71037A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5490414-4AC2-44D2-955E-CFC50F71037A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5490414-4AC2-44D2-955E-CFC50F71037A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5490414-4AC2-44D2-955E-CFC50F71037A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A749A94-009D-41DD-A6EA-93E291AA35EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A749A94-009D-41DD-A6EA-93E291AA35EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A749A94-009D-41DD-A6EA-93E291AA35EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A749A94-009D-41DD-A6EA-93E291AA35EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02854F2A-8EF4-468E-80A3-CD64BBAF5D15}
+	EndGlobalSection
+EndGlobal

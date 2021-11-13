@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+   <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>false</ImplicitUsings>	  
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0\LNDSecureComms.db" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Curve25519.NetCore" Version="1.0.0" />
+	  <PackageReference Include="LNDroneController.LND" Version="0.1.1108.2210" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.11" />
+	  <PackageReference Include="Serilog.Sinks.Console" Version="4.0.0" />
+	  <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+	  <PackageReference Include="Serilog.Sinks.Seq" Version="5.0.1" />
+	  <PackageReference Include="Serilog.AspNetCore" Version="4.1.0" />
+	  <PackageReference Include="ServiceStack" Version="5.12.0" />
+	  <PackageReference Include="ServiceStack.HttpClient" Version="5.12.0" />
+	  <PackageReference Include="ServiceStack.OrmLite.Sqlite" Version="5.12.0" />
+	  <PackageReference Include="SimpleBase" Version="3.1.0" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.0" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0">
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		  <PrivateAssets>all</PrivateAssets>
+	  </PackageReference>
+	  <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="6.0.0" />
+	  <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="2.0.7" />
+
+	  <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+
+	  <PackageReference Include="TorHiddenServiceHelper" Version="0.1.1109.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LNDSecureCommunicator.ServiceInterface\LNDSecureCommunicator.ServiceInterface.csproj" />
+    <ProjectReference Include="..\LNDSecureCommunicator.ServiceModel\LNDSecureCommunicator.ServiceModel.csproj" />
+   </ItemGroup>
+
+</Project>

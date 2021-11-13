@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LNDSecureCommunicator.CLI": {
+      "commandName": "Project",
+      "commandLineArgs": "--url http://localhost:50001 --echotest"
+    }
+  }
+}

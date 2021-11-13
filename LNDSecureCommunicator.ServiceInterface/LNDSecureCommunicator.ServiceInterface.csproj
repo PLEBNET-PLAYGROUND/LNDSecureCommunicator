@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFramework>net6.0</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetTor" Version="2.3.3" />
+    <PackageReference Include="LNDroneController.LND" Version="0.1.1108.2210" />
+    <PackageReference Include="ServiceStack" Version="5.12.0" />
+    <PackageReference Include="ServiceStack.HttpClient" Version="5.12.0" />
+    <PackageReference Include="ServiceStack.OrmLite.Sqlite" Version="5.12.0" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.0" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0">
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		  <PrivateAssets>all</PrivateAssets>
+	  </PackageReference>
+	  <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="6.0.0" />
+	  <PackageReference Include="TorHiddenServiceHelper" Version="0.1.1109.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LNDSecureCommunicator.ServiceModel\LNDSecureCommunicator.ServiceModel.csproj" />
+  </ItemGroup>
+
+</Project>

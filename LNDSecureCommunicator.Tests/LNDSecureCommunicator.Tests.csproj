@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <DebugType>portable</DebugType>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  
+    <ProjectReference Include="..\LNDSecureCommunicator.ServiceInterface\LNDSecureCommunicator.ServiceInterface.csproj" />
+    <ProjectReference Include="..\LNDSecureCommunicator.ServiceModel\LNDSecureCommunicator.ServiceModel.csproj" />
+    <PackageReference Include="DotNetTor" Version="2.3.3" />
+    <PackageReference Include="LNDroneController.LND" Version="0.1.1108.2210" />
+
+	  <PackageReference Include="NUnit" Version="3.13.2" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.1.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+    <PackageReference Include="ServiceStack" Version="5.12.0" />
+    <PackageReference Include="ServiceStack.HttpClient" Version="5.12.0" />
+    <PackageReference Include="ServiceStack.Kestrel" Version="5.*" />
+    <PackageReference Include="ServiceStack.OrmLite.Sqlite" Version="5.12.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="global.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
